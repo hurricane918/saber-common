@@ -2192,7 +2192,7 @@ __metadata:
     "@solana/wallet-adapter-base": ^0.9.6
     "@solana/wallet-adapter-brave": 0.1.4
     "@solana/wallet-adapter-clover": ^0.4.5
-    "@solana/wallet-adapter-coin98": ^0.5.5
+    "@solana/wallet-adapter-coin98": ^0.5.16
     "@solana/wallet-adapter-exodus": ^0.1.1
     "@solana/wallet-adapter-glow": ^0.1.2
     "@solana/wallet-adapter-huobi": ^0.1.1
@@ -2336,6 +2336,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@solana/wallet-adapter-base@npm:^0.9.19":
+  version: 0.9.19
+  resolution: "@solana/wallet-adapter-base@npm:0.9.19"
+  dependencies:
+    eventemitter3: ^4.0.0
+  peerDependencies:
+    "@solana/web3.js": ^1.58.0
+  checksum: 5f5070f529dc355a61ccb33f315df84a672e3784e19686192401f243702849c5c6cc98cb4ef98e2bf1588619649eb9d0d74c90c63aba199cd2826fa5f4c13f4e
+  languageName: node
+  linkType: hard
+
 "@solana/wallet-adapter-brave@npm:0.1.4":
   version: 0.1.4
   resolution: "@solana/wallet-adapter-brave@npm:0.1.4"
@@ -2358,15 +2369,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solana/wallet-adapter-coin98@npm:^0.5.5":
-  version: 0.5.9
-  resolution: "@solana/wallet-adapter-coin98@npm:0.5.9"
+"@solana/wallet-adapter-coin98@npm:^0.5.16":
+  version: 0.5.16
+  resolution: "@solana/wallet-adapter-coin98@npm:0.5.16"
   dependencies:
-    "@solana/wallet-adapter-base": ^0.9.10
+    "@solana/wallet-adapter-base": ^0.9.19
     bs58: ^4.0.1
   peerDependencies:
-    "@solana/web3.js": ^1.50.1
-  checksum: c2ea0428a85382edba24dd95bdee8e864200e776854b7f67bfad9e6da9ac5f78edbe6c1b6788c1f51d94e39ed71816ec02a788a38a894b7542559fddbe4fae19
+    "@solana/web3.js": ^1.58.0
+  checksum: 8cbe06f4fdcd73a9ffe62f1f0d94a8a1eb9e7959668936a9996a594edec9c4436d3eb5e363c096498309cf7b31a2024a8258b793d81045288b9256e9c43ebf17
   languageName: node
   linkType: hard
 
